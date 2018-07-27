@@ -21,8 +21,8 @@
     <properties>
         <elasticsearch.version>2.0.0</elasticsearch.version>
         <tika.version>1.10</tika.version>
-        <jackson.version>2.6.3</jackson.version>
-        <log4j.version>2.4.1</log4j.version>
+        <jackson.version>2.8.11.1</jackson.version>
+        <log4j.version>2.8.2</log4j.version>
 
         <java.compiler.version>1.8</java.compiler.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
