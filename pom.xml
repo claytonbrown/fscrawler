@@ -20,9 +20,9 @@
 
     <properties>
         <elasticsearch.version>2.0.0</elasticsearch.version>
-        <tika.version>1.10</tika.version>
-        <jackson.version>2.9.0</jackson.version>
-        <log4j.version>2.4.1</log4j.version>
+        <tika.version>1.24.1</tika.version>
+        <jackson.version>2.9.8</jackson.version>
+        <log4j.version>2.13.2</log4j.version>
 
         <java.compiler.version>1.8</java.compiler.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -191,12 +191,12 @@
         <dependency>
             <groupId>com.google.http-client</groupId>
             <artifactId>google-http-client</artifactId>
-            <version>1.20.0</version>
+            <version>1.24.1</version>
         </dependency>
         <dependency>
             <groupId>com.google.http-client</groupId>
             <artifactId>google-http-client-jackson2</artifactId>
-            <version>1.20.0</version>
+            <version>1.24.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>
@@ -276,14 +276,14 @@
         <dependency>
             <groupId>com.jcraft</groupId>
             <artifactId>jsch</artifactId>
-            <version>0.1.51</version>
+            <version>0.1.54</version>
         </dependency>
 
         <!-- For CLI -->
         <dependency>
             <groupId>com.beust</groupId>
             <artifactId>jcommander</artifactId>
-            <version>1.48</version>
+            <version>1.75</version>
         </dependency>
 
         <!-- Logging dependencies -->
